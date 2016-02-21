@@ -1,0 +1,80 @@
+*{
+	box-sizing: border-box
+	}
+body {
+	font-family: Calibri, Arial, sans-serif;
+	text-align: justify;
+	color: #111111;
+}
+nav {
+	margin: auto;
+	width: 70%;
+	background-color: #6D6D6D;
+}
+nav li{
+	display: inline-block;
+	margin: 20px;
+	padding: 0;
+	background-color: #EDE7E7;
+}
+nav li a {
+	padding: 10px;
+	display: block;
+}
+
+
+a {
+	color: #171717;
+	text-decoration: none;
+	font-size: large;
+}
+a:hover {
+	color: #EDE7E7;
+	background-color: #050505;
+}
+
+
+section {
+	padding: 10px;
+	margin: auto;
+	width: 70%;
+}
+
+aside {
+	float: left;
+	width: 30%;
+	padding-right: 15px;
+}
+aside img {
+	width: 100%;
+}
+
+
+
+
+article {
+	float: left;
+	padding: auto;
+	width: 70%;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+		}
+footer p {
+	margin: auto;
+	width: 70%;
+}
+img {
+	width: 500px;
+}
+.mapa {
+	float: right;
+	width: 70%;
+}
+.adresa {
+	width: 30%;
+	float: left;
+}
